@@ -1,0 +1,134 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="850.4,708.8" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="545.6,644" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Coursera | Online Courses &amp; Credentials From Top Educators. Join for Free" sap:VirtualizedContainerService.HintSize="483.2,532" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="e375eb15-f3a1-44c9-95d9-ffdea95a6c29" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,315.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'INPUT search-autocomple…'" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e375eb15-f3a1-44c9-95d9-ffdea95a6c29" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.coursera.org/?msockid=196df1eb82ea6f612a92e52383476e3a" DesignTimeRectangle="439, 212, 291, 60" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT search-autocomple…'" FullSelectorArgument="&lt;webctrl id='search-autocomplete-input' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='search-autocomplete-input' tag='INPUT' type='text' class='cds-175 cds-159 cds-input-input cds-179 cds-162 cds-180 cds-163' aaname='' /&gt;" Guid="8322912f-62ed-408a-86f1-93938fa061d7" InformativeScreenshot="484d5eaa870a303ec395f904d65b0ece.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Coursera | Online Courses &amp;amp; Credentials From Top Educators. Join for Free' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT search-autocomple…'" EmptyFieldMode="SingleLine" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="e375eb15-f3a1-44c9-95d9-ffdea95a6c29" Text="robotic process automation" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.coursera.org/?msockid=196df1eb82ea6f612a92e52383476e3a" DesignTimeRectangle="439, 212, 291, 60" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT search-autocomple…'" FullSelectorArgument="&lt;webctrl id='search-autocomplete-input' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='search-autocomplete-input' tag='INPUT' type='text' class='cds-175 cds-159 cds-input-input cds-179 cds-162 cds-180 cds-163' aaname='' /&gt;" Guid="15cbbf54-da88-4570-9cf8-04151c475870" InformativeScreenshot="5154e6950fecfb5e0b1cc0cd27bb6db0.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Coursera | Online Courses &amp;amp; Credentials From Top Educators. Join for Free' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'robotic process'" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e375eb15-f3a1-44c9-95d9-ffdea95a6c29" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.coursera.org/?msockid=196df1eb82ea6f612a92e52383476e3a" DesignTimeRectangle="494, 313, 608, 30" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'robotic process'" FullSelectorArgument="&lt;webctrl aaname='robotic process automation (rpa)' aria-role='presentation' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='robotic process automation (rpa)' aria-role='presentation' tag='DIV' type='' class='' check:innerText='robotic process automation (rpa)' /&gt;" Guid="8be93aee-a1be-4fed-b6c3-5006b685207c" InformativeScreenshot="744bfbd7f8ee2f1d4f1d045687a80deb.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Coursera | Online Courses &amp;amp; Credentials From Top Educators. Join for Free' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Robotic Process'" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e375eb15-f3a1-44c9-95d9-ffdea95a6c29" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.coursera.org/search?msockid=196df1eb82ea6f612a92e52383476e3a&amp;query=robotic%20process%20automation%20%28rpa%29" DesignTimeRectangle="548, 746, 360, 25" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Robotic Process'" FullSelectorArgument="&lt;webctrl aria-label='Robotic Process Automation (RPA) Specialization by UiPath, 4.7 s*' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Robotic Process Automation (RPA) Specialization by UiPath, 4.7 s*' tag='A' type='' class='cds-119 cds-113 cds-115 cds-CommonCard-titleLink css-si869u cds-142' aaname='Robotic Process Automation (RPA)' check:innerText='Robotic Process Automation (RPA)' /&gt;" Guid="d9f69546-054b-4292-9429-7f7eab1fc828" InformativeScreenshot="5a2f4afa92a3e344d3b5e61c44945cba.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Top Robotic Process Automation (rpa) Courses - Learn Robotic Process Automation (rpa) Online' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMUSURBVFhHxVdNaBNBFF5/LupBvehFBCt6UE969SLiRRQRSVOLKD2oVPTSXASpWBWKYsGLClYiehCpijcPgiho8eBKbZKapM1PsbFNbBojxm3+n+/NTshudnazSVPywUeWzJvvzc7M+1nJNhzh9ZJjoltyeh9JnR5ZcniT+FtkVJ9lNubwdDPblsH5bSeKu5EKEmySbN1sbtM4Kq+VnJ4hFMprhBtlHndkiGk1hBNjO3CiTyDYHEmLNG3BOb5X6hyfFwotiahJ2pagVS6L8wpR23Qn6JxsbPu2iwG4OhKHj/4MJP8WoVQGUHIlCPzMwuMPKThyKworu8RzGcmH8E7QZRFN4NzYMwHD7xagSB7rwB/LwqGbEaEOI/nSQQ0109u+2xWE6V85Lm8PZVznjVcJoR4yrw9RNc5FhrD9UgASfwpctnEMvjZdhFt1TlnLJMmsPumFrxGFSxkRTxdgNJgB749F06PJZEvs3gj0FTVjUuo0DjL2Dse4jB7k8OD1CKzQ2G4++x3uvplnl5JAR/Ds02/Y0uvXaepIqZ3ndqHB5GxWVdNgNJCBdad9QnvimXszIIcV2N8fEo7rSL7xQTYMIPe4JrnLKhYx3LZesHgjTu3O1KGMR8AqmWGw5/4Md1sFbanItmmSb3ygkmoYvPJ8jrutou/JrMFuiSxaLCDO3VbherocC2jgCEY+pw12SyI/AtuXMFcos8QkstdyE4ak6H8B8RJahGEQC0wtKDFtwLogsieeexhj0TLwMgFrTpmHKyMLQ4tEdB7FRJiay8Kx21FYpal6FJ4P3iZZAqogivXj+J1pnaaO5NsyFXd54UvIPBWn/xVhLKpAKJ7TOdaCMuO+y1MGbSRPxQSLYtSBeTyBOb9Z9GM0iXSRvBgR6pTjXX1Btp2NgN6cQlmkh6wpx4QWNiQ+LFYHBsJCHUZDQ0Kw2ZJ1YBheexFnRSmFLRmdPbVkfowY9/sUHB7Elswpnsto2pIR2tqUVtDWtrwCWqWN47BN0qr75rVQ70SbPs20UEO0DR+ntaCsRalTrR0t+jyXpP96A1+coXLC9gAAAABJRU5ErkJggg==" InformativeScreenshot="e97b6939002e9097aabc92396efdb5fc.jpg" Selector="&lt;html app='msedge.exe' title='Coursera | Online Courses &amp;amp; Credentials From Top Educators. Join for Free' /&gt;" Title="Coursera | Online Courses &amp; Credentials From Top Educators. Join for Free" Url="https://www.coursera.org/?msockid=196df1eb82ea6f612a92e52383476e3a" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
